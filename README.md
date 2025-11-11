@@ -7,4 +7,4 @@ Coding Factory Python Problems
 > * pip install -r requirements.txt => Installs all the needed deps for this repo
 
 # Solutions
-Chapter 1: > python hello_world.py => Inside the chapter1 folder, run the provided command
+* Chapter 1: > python hello_world.py => Inside the chapter1 folder, run the provided command
