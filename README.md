@@ -13,5 +13,6 @@ Coding Factory Python Problems
 # Solutions
 
 - Chapter 1: > python hello_world.py => Inside the chapter1 folder, run the provided command
+- Chapter 2: > python queue.py => Inside the chapter2 folder, run the provided command. A clear console module is used here to clean the space
 
 - Note: Feel free to experiment with all of these and make your own programs!
