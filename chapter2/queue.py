@@ -35,10 +35,7 @@ def left_pop(queue_list: list[int]) -> int | None:
     Returns:
         int or None
     """
-    if queue_list:
-        return queue_list.pop(0)
-    else:
-        print(f"Queue is empty {queue_list}")
+    return queue_list.pop(0) if queue_list else print(f"Queue is empty {queue_list}")
 
 # Prints the Queue
 def print_queue(queue_list: list[int]) -> None:
@@ -50,10 +47,7 @@ def print_queue(queue_list: list[int]) -> None:
     Returns:
         None
     """
-    if queue_list:
-        print(f"Current Queue: {queue_list}")
-    else:
-        print(f"Queue is empty {queue_list}")
+    print(f"Current Queue: {queue_list}") if queue_list else print(f"Queue is empty {queue_list}")
 
 # Menu
 def print_menu() -> None:
