@@ -64,12 +64,12 @@ def print_menu() -> None:
     print("4. q\Q\-uit\e\E\-xit for Quit")
     print()
 
-def get_choice():
+def get_choice() -> str:
     """
     A method to let the user to choose with an input() method.
 
     Returns:
-        None
+        input (str): Returns the input() str a user used.
     """
     return input("Please, provide a choice:\n")
 
